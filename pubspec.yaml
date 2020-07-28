@@ -1,0 +1,113 @@
+name: fyndaa
+description: A classified listing app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^4.0.0
+  firebase_core: ^0.4.4+3
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.5
+  rxdart: ^0.24.0
+  dartz: ^0.9.0
+  kt_dart: ^0.7.0+1
+  flutter_screenutil: ^1.1.0
+  meta: ^1.1.8
+  injectable: ^0.3.0
+  get_it: ^4.0.2
+  json_annotation: ^3.0.1
+  freezed_annotation: ^0.7.1
+  equatable: ^1.1.1
+  firebase_analytics: ^5.0.11
+  auto_route: ^0.3.1
+  connectivity: ^0.4.8+2
+  division: ^0.8.8
+  kf_drawer: ^1.1.2
+  flutter_hooks: ^0.9.0
+  uuid: ^2.0.4
+  flutter_form_builder: ^3.5.5
+  keyboard_avoider: ^0.1.2
+  google_sign_in: ^4.5.1
+  line_awesome_icons: ^1.0.4+2
+  font_awesome_flutter: ^8.8.1
+  data_connection_checker: ^0.3.4
+  flutter_spinkit: ^4.1.2+1
+  motion_widget: ^1.0.2
+  flutter_staggered_animations: ^0.1.2
+  animated_text_kit: ^2.1.0
+  argon_buttons_flutter: ^1.0.2
+  flushbar: ^1.10.4
+  animations: ^1.0.0+5
+  cached_network_image: ^2.2.0+1
+  blurhash: ^0.2.0
+  flutter_blurhash: ^0.5.0
+  flutter_conditional_rendering: ^1.1.1
+  firebase_storage: ^3.1.5
+  stream_chat_flutter: ^0.2.1-alpha+8
+  shared_preferences: ^0.5.7+3
+  algolia: ^0.1.7
+  image_form_field_x: ^0.0.8
+  flappy_search_bar: ^1.7.2
+
+  shimmer: ^1.1.1
+  multi_image_picker: ^4.6.5
+
+  carousel_slider: ^2.1.0
+  persistent_bottom_nav_bar: ^1.5.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^0.3.5
+  build_runner: ^1.9.0
+  freezed: ^0.10.7
+  json_serializable: ^3.3.0
+  auto_route_generator: ^0.3.2
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/categoryicons/Appliances.png
+    - assets/images/categoryicons/Babymaternityproducts.png
+    - assets/images/categoryicons/Bagsfashionaccessories.png
+    - assets/images/categoryicons/Beauty.png
+    - assets/images/categoryicons/Books.png
+    - assets/images/categoryicons/Electronics.png
+    - assets/images/categoryicons/Furniture.png
+    - assets/images/categoryicons/Hair.png
+    - assets/images/categoryicons/Healthfitness.png
+    - assets/images/categoryicons/Home.png
+    - assets/images/categoryicons/Kids.png
+    - assets/images/categoryicons/Mensclothing.png
+    - assets/images/categoryicons/Mensshoes.png
+    - assets/images/categoryicons/Toysgames.png
+    - assets/images/categoryicons/Womensclothing.png
+    - assets/images/categoryicons/Womensshoes.png
+    - assets/images/images.jpeg
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Bold.ttf
+        - asset: assets/fonts/Raleway-Medium.ttf
+        - asset: assets/fonts/Raleway-Regular.ttf

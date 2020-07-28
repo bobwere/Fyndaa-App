@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "266399181777",
+    "firebase_url": "https://fyndaa-a0400.firebaseio.com",
+    "project_id": "fyndaa-a0400",
+    "storage_bucket": "fyndaa-a0400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266399181777:android:26dd261100fe1c1f0d8ef0",
+        "android_client_info": {
+          "package_name": "com.fyndaa.fyndaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266399181777-e89ka5jip2oamoofsb8rgkbh1cmkolnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fyndaa.fyndaa",
+            "certificate_hash": "946681cf87dfff55601a0eb974e965a0d264c0da"
+          }
+        },
+        {
+          "client_id": "266399181777-he1dk70ef52o7iu2h64r82b0b110aghd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzL-fguuOAftUgXfbReQVmY_zvogeOt7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266399181777-he1dk70ef52o7iu2h64r82b0b110aghd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
